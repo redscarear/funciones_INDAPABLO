@@ -1,7 +1,7 @@
 use eventos_artisticos;
 
-/** la siguiente funcion sirve para saber cuando espacios para eventos hay mayores a la cantidad de audiencia que se requiera
-se ingresa un numero de audiencia, y la funcion devovlera la cantidad de espacios mayores a esa cantidad de publico **/
+/** la siguiente funcion sirve para saber cuantos lugares para eventos hay mayores a la cantidad de audiencia que se requiera.
+Se ingresa un numero, y la funcion devovlera la cantidad de espacios mayores a esa cantidad de publico hay **/
 drop function if exists FN_capacidad ;
 DELIMITER //
 CREATE FUNCTION FN_capacidad ( cantidad int ) 
@@ -15,7 +15,7 @@ RETURN NUMERO;
 END//
 DELIMITER ; 
 
-/** en la siguiente funcion, se ingresa el ID de un evento, y devuelve el Nombre del evento y la fecha**/
+/** en la siguiente funcion, se ingresa el ID de un evento, y devuelve el Nombre del evento y la fecha del mismo**/
 drop function if exists fn_evento;
 DELIMITER //
 create function fn_evento (id int)
