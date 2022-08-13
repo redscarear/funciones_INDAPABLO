@@ -1,10 +1,13 @@
-# ScriptVis_IndaPablo
+# Funciones_IndaPablo
 
-En este repositorio encontrara el Diagrama ER del proyecto (ER_IndaPablo), 
-y tres archivos SQL, 
-el de creacion de la base de datos y tablas (EventosArtisticos_Schema_Tables),
-el de insercion de datos ( EventosArtisticos_Insert_Data)
-y el de vistas (EventosArtisticos_Views)
-este ultimo archivo al ejecutarlo, creara las vistas y las correra para mostrar el resultado
+En este repositorio encontrara cinco archivos
+
+-   el Diagrama ER del proyecto (ER_IndaPablo)
+-   el de creacion de la base de datos y tablas (EventosArtisticos_Schema_Tables),
+-   el de insercion de datos ( EventosArtisticos_Insert_Data)
+-   el de vistas (EventosArtisticos_Views)
+-   el de funciones (EventosArtisticos_Functions)
+
+Este ultimo contiene el script para la creacion de dos funciones y finaliza con un ejemplo de cada uno
 
 Pablo Inda
